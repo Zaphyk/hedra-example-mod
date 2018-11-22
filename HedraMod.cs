@@ -1,11 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Hedra.API;
 
 namespace HedraExample
 {
-    class HedraMod
+    public class HedraMod : Mod
     {
+        public override string Name => "Example Mod";
+
+        public override void RegisterContent()
+        {
+            base.AddWeaponType("Mace", typeof(Mace));
+        }
     }
 }
