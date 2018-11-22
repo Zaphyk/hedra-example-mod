@@ -1,0 +1,13 @@
+AssetBuilder/bin/
+AssetBuilder/obj/
+Hedra/API/
+bin
+obj
+.vs
+packages/
+.idea/
+packages
+*.user
+*.hst
+__pycache__
+
